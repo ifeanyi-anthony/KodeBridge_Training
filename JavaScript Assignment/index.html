@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Exercise</title>
+  </head>
+  <body>
+    <script>
+      // Task 1
+      let length = 2;
+      let breadth = 5;
+      const perimeter = 2 * (length + breadth);
+      const area = length * breadth;
+      console.log(perimeter);
+      console.log(area);
+
+      //   Task 2
+      let c = 34;
+      let f = 93;
+      const Fahrenheit = c * (9 / 5) + 32;
+      const Celsius = (f - 32) * (5 / 9);
+      console.log(Fahrenheit);
+      console.log(Celsius);
+
+      //   Task 3
+      let inputNum = 1234567891011122;
+      const lastDigits = inputNum.toString().slice(12, 16);
+      const repeatNum = "*";
+      const hiddenDigits = repeatNum.repeat(14);
+      console.log(hiddenDigits + lastDigits);
+
+      //   Task 4
+      let acceptedText = "hello";
+      let numOfRepeat = 4;
+      console.log(acceptedText.repeat(numOfRepeat));
+
+      //   Task 5
+      let numGiven = 59;
+      let supriseEmoji = "😨";
+      console.log(numGiven % 2);
+      console.log(supriseEmoji.repeat(1));
+
+      //   Task 6
+      let stringChosen = "elephant";
+      console.log(stringChosen.substring(2, 5));
+
+      //   Task 7
+      let fullName = "Hallelujah glory";
+      console.log(fullName.slice(0, 3) + fullName.slice(-2));
+    </script>
+  </body>
+</html>
